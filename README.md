@@ -3,8 +3,7 @@
 The Mall-related-APi is a Client Server Service that uses HTTP requests to access and use data. That data can be used to GET, PUT, POST and DELETE data types, which refers to the reading, updating, creating and deleting of operations concerning resources.
 
 ![Alt text](https://github.com/Moglten/RESTful-Mall-related-API/blob/main/Related%20Images/Screenshot_1.png)
-\n
-\n
+
 > is Mall-related-API is RESTful?
 >> Considering the Principle of RESTful 
 >> Uniform Interface: Verfied! by using the HTTP requests and Json as my representation of data.
@@ -14,13 +13,11 @@ The Mall-related-APi is a Client Server Service that uses HTTP requests to acces
 >> Layerd system: Verfied! Client doesn't have direct connection to the server.
 
 >So, we can say Mall-related-API is a RESTul.
-\n
-\n
+
 ## Frameworks
 * Microsoft AspNetCore
 * Micorsoft .NetCore 
-\n
-\n
+
 ## Dependances
 * Bricelam.EntityFrameworkCore.Pluralizer
 * Microsoft.AspNetCore.Mvc.NewtonsoftJson
@@ -29,8 +26,7 @@ The Mall-related-APi is a Client Server Service that uses HTTP requests to acces
 * Microsoft.VisualStudio.Web.CodeGeneration.Design
 * NPOI
 * Swashbuckle.AspNetCore
-\n
-\n
+
 ## Features
 
 * the four main HTTP operations(**GET**, **PUT**, **POST**, **Delete**)
@@ -42,14 +38,12 @@ The Mall-related-APi is a Client Server Service that uses HTTP requests to acces
 * Eager loading of Related-data
 * Explict loading of Related-data
 * Pour Client-Server Service
-\n
-\n
+
 ## Design patterns
 
 * **Repository** design pattern with **interface** and **Generic** Behavioral Container.
 * **Dependancy Inversion** Priciple(MileStone of ASP.Net Core)
-\n
-\n
+
 ## Authentection
 
 The Main Idea about Authentection is to convert that mail and password:
@@ -62,8 +56,7 @@ to **Base64bitString** then pass it as Header with name Authorization
 
 by then you should include the Base64bitString of your email and password in the **header** to execute any procedure on the **database** through the API.
 You can give it a look in Handler File.
-\n
-\n
+
 ## Swagger
 
 Swagger Page To OverView the API
@@ -71,8 +64,7 @@ Swagger Page To OverView the API
 ![Alt text](https://github.com/Moglten/RESTful-Mall-related-API/blob/main/Related%20Images/Swagger%20Page%20Examble.png) 
 
 you can access the swagger page Via that link : (youLocalHost)/swagger/index.html
-\n
-\n
+
 ## Get Tested by Postman 
 
 Samples of outout for The API:
@@ -89,8 +81,7 @@ HTTP Req(GET) : https://localhost:44340/api/customers?filte=city=london
 
 > Output Sample : <https://github.com/Moglten/RESTful-Mall-related-API/blob/main/Output%20Samples/Output%20GET%20Filter.json>
 ```
-\n
-\n
+
 ## Database
 
 Database Bak:-
