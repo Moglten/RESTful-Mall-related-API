@@ -6,11 +6,11 @@ The Mall-related-APi is a Client Server Service that uses HTTP requests to acces
 
 > is Mall-related-API is RESTful?
 >> Considering the Principle of RESTful 
->> Uniform Interface: Verfied! by using the HTTP requests and Json as my representation of data.
->> Stateless: Verfied! no client sessions held on server.
->> Client-server: Verfied! See it as Disconnected system.
->> Cachable: Verfied! server response(representation) are cachable.
->> Layerd system: Verfied! Client doesn't have direct connection to the server.
+>> * Uniform Interface: Verfied! by using the HTTP requests and Json as my representation of data.
+>> * Stateless: Verfied! no client sessions held on server.
+>> * Client-server: Verfied! See it as Disconnected system.
+>> * Cachable: Verfied! server response(representation) are cachable.
+>> * Layerd system: Verfied! Client doesn't have direct connection to the server.
 
 >So, we can say Mall-related-API is a RESTul.
 
