@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mall-Related API", "Mall-Related API\Mall-Related API.csproj", "{CF860C4D-AB33-4DD6-B803-67AD72E6E415}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF860C4D-AB33-4DD6-B803-67AD72E6E415}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF860C4D-AB33-4DD6-B803-67AD72E6E415}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF860C4D-AB33-4DD6-B803-67AD72E6E415}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF860C4D-AB33-4DD6-B803-67AD72E6E415}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {84D07F4C-F96B-45BF-9FD3-92FD10D7CF66}
+	EndGlobalSection
+EndGlobal
