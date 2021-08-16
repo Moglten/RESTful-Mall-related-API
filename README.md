@@ -48,7 +48,7 @@ The Mall-related-APi is a Client Server Service that uses HTTP requests to acces
 
 The Main Idea about Authentection is to convert that mail and password:
 
-> xgamepalyer.com@gmail.com:123465789
+> xgameplayer.com@gmail.com:123465789
 
 to **Base64bitString** then pass it as Header with name Authorization
 
@@ -67,19 +67,21 @@ you can access the swagger page Via that link : (youLocalHost)/swagger/index.htm
 
 ## Get Tested by Postman 
 
+![Alt Gif](https://github.com/Moglten/RESTful-Mall-related-API/blob/main/Related%20Images/tryon.gif)
+
 Samples of outout for The API:
 ```
 HTTP Req(GET) : https://localhost:44340/api/orders?pageNumber=1&pageSize=4
 
-> Output Sample : <https://github.com/Moglten/RESTful-Mall-related-API/blob/main/Output%20Samples/Output%20GET%20paged.json>
+https://github.com/Moglten/RESTful-Mall-related-API/blob/main/Output%20Samples/Output%20GET%20paged.json
 
 HTTP Req(GET) : https://localhost:44340/api/shippers?sort=companyName
 
-> Output Sample : <https://github.com/Moglten/RESTful-Mall-related-API/blob/main/Output%20Samples/Output%20GET%20Sort.json>
+https://github.com/Moglten/RESTful-Mall-related-API/blob/main/Output%20Samples/Output%20GET%20Sort.json
 
 HTTP Req(GET) : https://localhost:44340/api/customers?filte=city=london
 
-> Output Sample : <https://github.com/Moglten/RESTful-Mall-related-API/blob/main/Output%20Samples/Output%20GET%20Filter.json>
+https://github.com/Moglten/RESTful-Mall-related-API/blob/main/Output%20Samples/Output%20GET%20Filter.json
 ```
 
 ## Database
