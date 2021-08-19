@@ -70,25 +70,23 @@ you can access the swagger page Via that link : (youLocalHost)/swagger/index.htm
 ![Alt Gif](https://github.com/Moglten/RESTful-Mall-related-API/blob/main/Related%20Images/tryon.gif)
 
 Samples of outout for The API:
-```
-HTTP Req(GET) : https://localhost:44340/api/orders?pageNumber=1&pageSize=4
 
-https://github.com/Moglten/RESTful-Mall-related-API/blob/main/Output%20Samples/Output%20GET%20paged.json
+HTTP Req(GET) : <https://localhost:44340/api/orders?pageNumber=1&pageSize=4>
+
+![Output](https://github.com/Moglten/RESTful-Mall-related-API/blob/main/Output%20Samples/Output%20GET%20paged.json)
 
 HTTP Req(GET) : https://localhost:44340/api/shippers?sort=companyName
 
-https://github.com/Moglten/RESTful-Mall-related-API/blob/main/Output%20Samples/Output%20GET%20Sort.json
+![Output](https://github.com/Moglten/RESTful-Mall-related-API/blob/main/Output%20Samples/Output%20GET%20Sort.json)
 
 HTTP Req(GET) : https://localhost:44340/api/customers?filte=city=london
 
-https://github.com/Moglten/RESTful-Mall-related-API/blob/main/Output%20Samples/Output%20GET%20Filter.json
-```
+![Output](https://github.com/Moglten/RESTful-Mall-related-API/blob/main/Output%20Samples/Output%20GET%20Filter.json)
+
 
 ## Database
 
-Database Bak:-
-
-<https://github.com/Moglten/RESTful-Mall-related-API/blob/main/NorthWindMall.bak>
+Database Bak: ![Database Bak](https://github.com/Moglten/RESTful-Mall-related-API/blob/main/NorthWindMall.bak)
 
 Database Scheme:-
 
