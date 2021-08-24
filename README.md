@@ -57,6 +57,65 @@ to **Base64bitString** then pass it as Header with name Authorization
 by then you should include the Base64bitString of your email and password in the **header** to execute any procedure on the **database** through the API.
 You can give it a look in Handler File.
 
+## EndPoints
+```
+Get Requests
+
+https://(Host)/api/customers
+https://(Host)/api/customers/{id}
+https://(Host)/api/customers/paged-customers
+
+
+https://(Host)/api/orders
+https://(Host)/api/orders/{id}
+https://(Host)/api/customers/paged-orders
+
+https://(Host)/api/shippers
+https://(Host)/api/shippers/{id}
+https://(Host)/api/customers/paged-shippers
+
+https://(Host)/api/employees
+https://(Host)/api/employees/{id}
+https://(Host)/api/customers/paged-employees
+
+https://(Host)/api/products
+https://(Host)/api/products/{id}
+https://(Host)/api/customers/paged-products
+
+
+https://(Host)/api/suppliers
+https://(Host)/api/suppliers/{id}
+https://(Host)/api/customers/paged-suppliers
+
+Put Requests
+
+https://(Host)/api/customers/{id}
+https://(Host)/api/orders/{id}
+https://(Host)/api/shippers/{id}
+https://(Host)/api/employees/{id}
+https://(Host)/api/products/{id}
+https://(Host)/api/suppliers/{id}
+
+Post Requests
+
+https://(Host)/api/customers
+https://(Host)/api/orders
+https://(Host)/api/shippers
+https://(Host)/api/employees
+https://(Host)/api/products
+https://(Host)/api/suppliers
+
+Delete Requests 
+
+https://(Host)/api/customers
+https://(Host)/api/orders
+https://(Host)/api/shippers
+https://(Host)/api/employees
+https://(Host)/api/products
+https://(Host)/api/suppliers
+
+```
+
 ## Swagger
 
 Swagger Page To OverView the API
